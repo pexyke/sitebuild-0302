@@ -57,11 +57,11 @@ header .header-icon {
 }
 
 .card-container {    
-    width: 400px;
+    width: 350px;
 }
 
 .card-content {
-    height: 350px;
+    height: 325px;
     position: relative;
 }
 
@@ -98,6 +98,7 @@ header .header-icon {
 
 .card-content .text {
     padding-top: 1em;
+    font-size: 16px;
 }
 
 .card-footer {
