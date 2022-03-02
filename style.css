@@ -1,0 +1,131 @@
+:root {
+    --primary: #f8f7f3;
+    --secondary: #1a24fb;
+  }
+
+body {
+    margin: 0;
+    background-color: var(--primary);
+    color: var(--secondary);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Overpass', sans-serif;
+}
+
+/* background-color: var(--primary); */
+
+
+header {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;   
+    background-color: var(--secondary);
+}
+
+header .header-title {
+    font-family: 'Overpass', sans-serif;
+    letter-spacing: 0.2em;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 40px;
+    padding-left: 1em;
+    color: var(--primary);
+}
+
+header .header-icon {
+    font-family: 'Material Icons';
+    font-size: 24px;
+    padding-right: 2em;
+    line-height: 40px;
+    color: var(--primary);
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.cards-container {
+    max-width: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px 20px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: stretch;    
+}
+
+.card-container {    
+    width: 400px;
+}
+
+.card-content {
+    height: 350px;
+    position: relative;
+}
+
+.card-container .card-number-container {
+    top: 0px;
+    right: 0px;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+}
+
+.card-content {
+    border: 1px solid var(--secondary);
+    padding: 40px;
+}
+
+.card-content .title {
+    font-family: 'Overpass', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.card-content .sub {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+}
+
+.card-content .text {
+    padding-top: 1em;
+}
+
+.card-footer {
+    padding-top: 0.25em;
+}
+
+.read-more-button span {
+    display: block;
+}
+
+.read-more-button {
+    background-color: var(--primary);
+    color: var(--secondary);
+    border: none;
+    width: 100%;
+    height: 18px;
+    line-height: 18px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.read-more-button:hover {
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+
+.read-more-button .material-icons-outlined {
+    font-family: 'Material Icons';
+    font-size: 18px;
+}
